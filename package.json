@@ -10,7 +10,8 @@
     "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-server": "node server/index.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.2.1",
