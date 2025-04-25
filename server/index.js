@@ -165,4 +165,3 @@ app.get('/health', (req, res) => res.status(200).send('OK'));
 
 // Start server
 server.listen(port, () => console.log(`Server running on http://localhost:${port}`));
-module.exports = app;
